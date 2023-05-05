@@ -32,3 +32,17 @@ footer {
     background-color: steelblue;
     color: white;
 }
+
+/* Practicing IDs and Classes*/
+
+/* This is a ID */
+#active {
+    background-color: aliceblue;
+    color: blueviolet;
+}
+
+/* This is a class */
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
