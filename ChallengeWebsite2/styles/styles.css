@@ -1,0 +1,33 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: rgb(119, 119, 119);
+}
+
+.main-part img {
+    width: 100%;
+}
+
+.picture1 img {
+    width: 15%;
+    border-radius: 150px;
+    border: 15px solid rgb(65, 65, 65);
+    position: relative;
+    left: 10%;
+}
+
+.picture2 img {
+    width: 15%;
+    border-radius: 150px;
+    border: 15px solid rgb(65, 65, 65);
+    position: relative;
+    left: 25%;
+}
+
+.picture3 img {
+    width: 15%;
+    border-radius: 150px;
+    border: 15px solid rgb(65, 65, 65);
+    position: relative;
+    left: 40%;
+}

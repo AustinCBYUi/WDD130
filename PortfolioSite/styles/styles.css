@@ -1,24 +1,119 @@
+/* Navigation Menu */
+
+nav {
+    background-color: rgb(29, 29, 29);
+    margin: 0;
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    height: 75px;
+    padding: 20px;
+    font-size: 1em;
+    text-decoration: none;
+    position: relative;
+    top: 21px;
+    left: 55%;
+}
+
+nav a:hover {
+    background-color: rgb(123, 123, 123);
+}
+/* End of Navigation */
+
+
+/* Body and Content of webpage */
 body {
     background-color: rgb(33, 40, 40);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.home-grid {
+    color: white;
+}
+
+.picture-box {
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.picture-box img {
+    width: 350px;
+    position: relative;
+    left: 0px;
+    top: 2px;
+    border: 5px solid rgb(33, 40, 40);
+}
+/* Title for little about me*/
+.picture-box-text h3 {
+    position: relative;
+    left: 45%;
+    bottom: 475px;
+    font-size: 24px;
+}
+/* Description 1*/
+.picture-box-text .one {
+    max-width: 65%;
+    position: relative;
+    left: 30%;
+    bottom: 475px;
+}
+
+
+
+/* Footer stuff all down here I hope. */
 
 footer {
     background-color: rgb(29, 29, 29);
-    height: 10%; /* Absolute is px*/
-    width: 100%; /* Relative is percent */
+    height: 75px;
+    position: relative;
     color: white;
     text-align: left;
 }
 
-/* Button for Contact Me*/
-footer #button {
+/* Copy right / designer / developer */
+.text {
     height: 30px;
-    width: 10%;
-    background-color: black;
+    width: 20%;
+    color: white;
     text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    right: 20px;
 }
 
-.social {
-    width: 10px;
-    height: 10px;
+/* Move text down to be centered with box */
+
+/* Button for Contact Me*/
+#button {
+    position: relative;
+    left: 60%;
+    bottom: 35px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
 }
+
+#button:hover {
+    color: darkorchid;
+    background-color: rgb(123, 123, 123);
+}
+
+.social, .social img {
+    width: 70px;
+    position: relative;
+    left: 90%;
+    bottom: 14px;
+    
+}
+
