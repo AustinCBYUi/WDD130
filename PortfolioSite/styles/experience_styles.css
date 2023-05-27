@@ -23,6 +23,21 @@ nav a:hover {
 
 
 /* Body and Content of webpage */
+#home-grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.grid-item {
+    color: white;
+}
+/* Won't be transparent for some reason.*/
+.grid-item img {
+    width: 250px;
+    background: transparent;
+}
+
 body {
     background-color: rgb(33, 40, 40);
     font-family: Arial, Helvetica, sans-serif;
@@ -33,70 +48,6 @@ body {
 #content {
     max-width: 1600px;
     margin: 0 auto;
-}
-
-.home-grid {
-    color: white;
-}
-
-.picture-box {
-    background-color: rgb(29, 29, 29);
-    width: 100%;
-    position: relative;
-    top: 10px;
-}
-
-.picture-box img {
-    width: 350px;
-    position: relative;
-    left: 0px;
-    top: 2px;
-    margin-left: 5px;
-    border-radius: 30px;
-    border: 5px solid rgb(33, 40, 40);
-}
-/* Title for little about me, display: inline fixed scrolling*/
-.picture-box-text {
-    height: 0;
-}
-
-.picture-box-text h3 {
-    position: relative;
-    display: inline;
-    left: 740px;
-    bottom: 490px;
-    font-size: 24px;
-    font-family: Arial;
-}
-/* Description 1*/
-.picture-box-text .one {
-    max-width: 65%;
-    position: relative;
-    left: 440px;
-    bottom: 475px;
-    font-family: Calibri;
-    font-size: 18px;
-    display: block;
-}
-
-.picture-box-text .two {
-    max-width: 65%;
-    position: relative;
-    left: 440px;
-    bottom: 440px;
-    font-family: Calibri;
-    font-size: 18px;
-    display: block;
-}
-
-.picture-box-text .three {
-    max-width: 65%;
-    position: relative;
-    left: 440px;
-    bottom: 410px;
-    font-family: Calibri;
-    font-size: 18px;
-    display: block;
 }
 
 
@@ -148,4 +99,3 @@ footer {
     bottom: 14px;
     
 }
-
