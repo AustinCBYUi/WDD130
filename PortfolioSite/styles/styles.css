@@ -3,7 +3,13 @@
 nav {
     background-color: rgb(29, 29, 29);
     margin: 0;
-    padding: 25px;
+    padding: 5px;
+}
+
+/* Need to fix the logo */
+nav img {
+    width: 500px;
+    margin-left: -25px;
 }
 
 nav a {
@@ -13,7 +19,8 @@ nav a {
     font-size: 1em;
     text-decoration: none;
     position: relative;
-    left: 65%;
+    top: -32px;
+    left: 32%;
 }
 
 nav a:hover {
@@ -106,7 +113,6 @@ body {
 footer {
     background-color: rgb(29, 29, 29);
     padding: 0;
-    position: relative;
     color: white;
     text-align: left;
     margin-top: 20px;
@@ -146,6 +152,11 @@ footer {
     position: relative;
     left: 90%;
     bottom: 14px;
-    
 }
 
+.social .two {
+    width: 110px;
+    position: absolute;
+    bottom: -6px;
+    margin-left: -150px;
+}

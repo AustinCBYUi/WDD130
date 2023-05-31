@@ -28,50 +28,41 @@ nav a:hover {
 }
 /* End of Navigation */
 
-/* Title of page named "Languages"*/
-h1 {
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    margin-top: 25px;
-}
-
-.title2 h1 {
-    color: aqua;
-    text-align: center;
-}
-
 
 /* Body and Content of webpage */
 #home-grid {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 250px 250px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 650px 650px;
     justify-content: center;
 }
 
-#secondary-grid {
-    display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 250px 250px;
-    justify-content: center;
-}
-
-/* Python 3*/
 .grid-item {
     color: white;
     font-size: 14px;
     text-align: center;
     border: 5px solid rgb(29, 29, 29);
     background-color: rgb(29, 29, 29);
-    margin: 5px 5px;
+    margin: 10px 10px;
 }
 
-/* Won't be transparent for some reason.*/
 .grid-item img {
-    width: 150px;
-    margin-top: -10px;
-    background: transparent;
+    width: 350px;
+}
+
+.grid-item img:hover {
+    opacity: 50%;
+    background-color: white;
+}
+/* Not wrapping properly*/
+.grid-item p {
+    font-size: 16px;
+    font: 50 sans-serif;
+    line-height: 23px;
+    text-align: center;
+    max-width: 90%;
+    margin-top: -5px;
+    padding: 15px;
 }
 
 /* HTML and CSS */
