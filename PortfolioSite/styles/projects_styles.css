@@ -30,10 +30,17 @@ nav a:hover {
 
 
 /* Body and Content of webpage */
+h1 {
+    color: white;
+    font-size: 32px;
+    font-family: Arial;
+    text-align: center;
+}
+
 #home-grid {
     display: grid;
     grid-template-columns: 500px 500px;
-    grid-template-rows: 650px 650px;
+    grid-template-rows: 675px;
     justify-content: center;
 }
 
