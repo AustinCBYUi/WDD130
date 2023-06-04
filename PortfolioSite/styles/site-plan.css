@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Roboto+Slab');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -9,11 +9,11 @@ Fonts are separated by a | */
   --secondary-color: #30383B ;
   --accent1-color: #1E2323;
   --accent2-color: #303B37;
-  --accent3-color: #29332E;
+  --accent3-color: #d9d9d9;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Arial;
-  --paragraph-font: Helvetica, sans-serif;
+  --heading-font: Montserrat, Arial;
+  --paragraph-font: "Open Sans", "Roboto Slab", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
