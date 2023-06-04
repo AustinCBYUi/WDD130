@@ -2,19 +2,23 @@ body {
     background-color: darkslateblue;
 }
 
-h1 {
-
+h1, h2 {
     text-align: center;
     color: white;
 }
 
-nav {
-    background-color: darkolivegreen;
+nav a {
+    background-color: rgb(144, 148, 96);
+    color: rgb(20, 20, 20);
     text-decoration: none;
     padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    left: 150px;
     text-align: center;
 }
 
-nav:hover {
-    background-color: darkslategray;
+nav a:hover {
+    background-color: rgb(57, 1, 142);
+    color: white;
 }

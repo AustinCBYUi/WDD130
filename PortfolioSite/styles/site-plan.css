@@ -9,6 +9,7 @@ Fonts are separated by a | */
   --secondary-color: #30383B ;
   --accent1-color: #1E2323;
   --accent2-color: #303B37;
+  --accent3-color: #29332E;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Arial;
@@ -92,6 +93,9 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+}
+.accent3{
+  background-color: var(--accent3-color);
 }
 
 p.colored {
