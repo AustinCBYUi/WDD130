@@ -1,0 +1,92 @@
+.logo {
+    width: 80px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #4472CA; /* Secondary */
+    font-family: Candara, Verdana, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #5E7CE2; /* Accent 1*/
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+body {
+    background-color: #92B4F4; /* Accent 2*/
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    justify-content: center;
+    align-items: center top;
+    padding: 60px;
+}
+
+.grid {
+    margin: 3px 3px;
+}
+
+.grid img {
+    width: 300px;
+}
+
+footer {
+    background: #4472CA;
+    color: rgb(234, 234, 234);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p {
+    font-size: 1.5em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
