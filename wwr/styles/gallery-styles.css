@@ -51,7 +51,7 @@ body {
     display: grid;
     grid-template-columns: 310px 310px 310px;
     justify-content: center;
-    align-items: center top;
+    align-items: center;
     padding: 60px;
 }
 
