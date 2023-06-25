@@ -42,26 +42,43 @@ body {
     margin: 0 auto;
 }
 
+/* Home grid */
 .home-grid {
+    display: grid;
+    grid-template-columns: 1400px;
+    grid-template-rows: 600px 600px;
     color: white;
 }
 
-.picture-box {
+/* Individual grid item */
+.grid-item {
     background-color: rgb(29, 29, 29);
-    width: 100%;
-    position: relative;
-    top: 10px;
+    width: 95%;
+    justify-self: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 350px 1050px;
 }
 
-.picture-box img {
+.grid-item img {
     width: 350px;
-    position: relative;
-    left: 0px;
-    top: 2px;
-    margin-left: 5px;
-    border-radius: 30px;
-    border: 5px solid rgb(33, 40, 40);
+    margin-top: 20px;
+    margin-left: 20px;
 }
+
+.grid-item h3 {
+    font-size: 32px;
+    margin-left: 400px;
+}
+
+.grid-item p {
+    font-size: 18px;
+    grid-column: 2/3;
+    margin-left: 80px;
+    margin-top: -350px;
+    max-width: 80%;
+}
+
 /* Title for little about me, display: inline fixed scrolling*/
 .picture-box-text {
     height: 0;
@@ -134,17 +151,30 @@ footer {
 /* Button for Contact Me*/
 #button {
     position: relative;
-    left: 60%;
+    left: 75%;
     bottom: 35px;
     color: white;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
+}
+#siteplan {
+    position: relative;
+    left: 83%;
+    bottom: 35px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+#siteplan:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(123, 123, 123);
+    padding: 15px;
 }
 
 #button:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(123, 123, 123);
-    padding: 20px;
+    padding: 15px;
 }
 
 .social, .social img {
