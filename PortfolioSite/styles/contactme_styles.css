@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Roboto+Slab');
+
+
 /* Navigation Menu */
 
 nav {
@@ -20,7 +23,8 @@ nav a {
     text-decoration: none;
     position: relative;
     top: -32px;
-    left: 32%;
+    left: 30%;
+    font: "Roboto Slab";
 }
 
 nav a:hover {
@@ -39,7 +43,7 @@ h1 {
 
 body {
     background-color: rgb(33, 40, 40);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, "Open Sans", "Roboto Slab", Arial, sans-serif;
     margin: 0;
     padding: 0;
 }

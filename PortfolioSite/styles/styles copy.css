@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Roboto+Slab');
-
-
 /* Navigation Menu */
 
 nav {
@@ -23,8 +20,7 @@ nav a {
     text-decoration: none;
     position: relative;
     top: -32px;
-    left: 30%;
-    font: "Roboto Slab";
+    left: 32%;
 }
 
 nav a:hover {
@@ -35,10 +31,10 @@ nav a:hover {
 /* Paralax testing */
 .parallax {
     /* The image used */
-    background-image: url("para-bk1.jpg");
+    background-image: url("PortfolioSite\images\para-bk1.jpg");
       
     /* Set a specific height */
-    min-height: 600px; 
+    min-height: 500px; 
       
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -46,19 +42,20 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax-2 {
-    background-image: url("para-bk2.png");
-    min-height: 800px;
-    margin-top: -190px;
+
+.bgimg-1, .bgimg-1 img {
+    height: 100%;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.parallax-3 {
-    background-image: url("para-bk3.png");
-    min-height: 700px;
+.bgimg-2, .bgimg-2 img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 110px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,7 +81,7 @@ nav a:hover {
 /* Body and Content of webpage */
 body {
     background-color: rgb(33, 40, 40);
-    font-family: Montserrat, "Open Sans", "Roboto Slab", Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -115,38 +112,37 @@ html {
 .grid-item {
     background-color: rgb(29, 29, 29);
     width: 100%;
-    height: 100%;
-    margin-top: 0;
-    display: grid;
-    grid-template-columns: 25% 75%;
-    z-index: 1;
-}
-
-.grid-item img {
-    width: 350px;
-    margin-top: 0;
-    margin-left: 0;
-    padding: 10px;
-}
-
-.grid-item h3 {
-    position: relative;
+    height: 78%;
+    justify-self: center;
+    margin-top: -15px;
     display: inline-block;
-    margin-left: 400px;
-    font-size: 32px;
-    font: Montserrat;
 }
 
-.grid-item p {
+.grid-item2 {
+    position: relative;
+    bottom: 150px;
+}
+
+.grid-item img, .grid-item2 img {
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.grid-item h3, .grid-item2 h3 {
+    position: relative;
+    bottom: 500px;
+    font-size: 32px;
+}
+
+.grid-item p, .grid-item2 p {
+    display: block;
+    position: relative;
+    bottom: 300px;
     font-size: 18px;
     grid-column: 2/3;
-    justify-content: center;
     margin-left: 80px;
-    margin-top: -400px;
     max-width: 80%;
-    font: "Open Sans";
-    letter-spacing: 1px;
-    padding: 25px;
 }
 
 /* Title for little about me, display: inline fixed scrolling*/
@@ -199,9 +195,10 @@ html {
 
 footer {
     background-color: rgb(29, 29, 29);
+    padding: 0;
     color: white;
     text-align: left;
-    margin-top: -15px;
+    margin-top: 20px;
 }
 
 /* Copy right / designer / developer */
