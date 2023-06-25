@@ -6,7 +6,7 @@ nav {
     padding: 5px;
 }
 
-/* NEED TO ADD IN NEW FONTS FROM SITE-PLAN! */
+/* Need to fix the logo */
 nav img {
     width: 500px;
     margin-left: -25px;
@@ -28,8 +28,15 @@ nav a:hover {
 }
 /* End of Navigation */
 
+/* Title of page named "Contact Me"*/
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+}
+/* HTML and CSS */
 
-/* Body and Content of webpage */
 body {
     background-color: rgb(33, 40, 40);
     font-family: Arial, Helvetica, sans-serif;
@@ -42,94 +49,12 @@ body {
     margin: 0 auto;
 }
 
-/* Home grid */
-.home-grid {
-    display: grid;
-    grid-template-columns: 1400px;
-    grid-template-rows: 600px 600px;
-    color: white;
-}
-
-/* Individual grid item */
-.grid-item {
-    background-color: rgb(29, 29, 29);
-    width: 95%;
-    justify-self: center;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 350px 1050px;
-}
-
-.grid-item img {
-    width: 350px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.grid-item h3 {
-    font-size: 32px;
-    margin-left: 400px;
-}
-
-.grid-item p {
-    font-size: 18px;
-    grid-column: 2/3;
-    margin-left: 80px;
-    margin-top: -350px;
-    max-width: 80%;
-}
-
-/* Title for little about me, display: inline fixed scrolling*/
-.picture-box-text {
-    height: 0;
-}
-
-.picture-box-text h3 {
-    position: relative;
-    display: inline;
-    left: 740px;
-    bottom: 490px;
-    font-size: 24px;
-    font-family: Arial;
-}
-/* Description 1*/
-.picture-box-text .one {
-    max-width: 65%;
-    position: relative;
-    left: 440px;
-    bottom: 475px;
-    font-family: Calibri;
-    font-size: 18px;
-    display: block;
-}
-
-.picture-box-text .two {
-    max-width: 65%;
-    position: relative;
-    left: 440px;
-    bottom: 440px;
-    font-family: Calibri;
-    font-size: 18px;
-    display: block;
-}
-
-.picture-box-text .three {
-    max-width: 65%;
-    position: relative;
-    left: 440px;
-    bottom: 410px;
-    font-family: Calibri;
-    font-size: 18px;
-    display: block;
-}
-
-
-
 /* Footer stuff all down here I hope. */
 
 footer {
     background-color: rgb(29, 29, 29);
     padding: 0;
+    position: relative;
     color: white;
     text-align: left;
     margin-top: 20px;
