@@ -39,6 +39,14 @@ h1 {
     margin-top: 25px;
     letter-spacing: 10px;
 }
+
+.subscript {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
 /* HTML and CSS */
 
 body {

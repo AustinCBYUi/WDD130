@@ -1,4 +1,5 @@
 <?php
+// This is not in use at the moment. \\
 if (isset($_POST['Email'])) {
 
     // EDIT THE FOLLOWING TWO LINES:
