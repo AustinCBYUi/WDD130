@@ -24,7 +24,6 @@ nav a {
     position: relative;
     top: -32px;
     left: 30%;
-    font: "Roboto Slab";
 }
 
 nav a:hover {
@@ -38,7 +37,6 @@ h1 {
     text-align: center;
     font-size: 24px;
     margin-top: 25px;
-    font: Montserrat;
     letter-spacing: 10px;
 }
 /* HTML and CSS */
@@ -75,7 +73,6 @@ input[type=text], input[type=email], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  font: "Open Sans";
 }
 
 input[type=submit] {
