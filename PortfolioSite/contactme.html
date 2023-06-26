@@ -20,9 +20,26 @@
             </nav>
         </header>
         <h1>Contact Me</h1>
-        <main id="home-grid">
-            <div class="grid-item">
-                <p>Unfinished</p>
+        <main id="home">
+            <div class="container">
+                <form method="post" action="contact-form.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your First Name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="mail" name="email" placeholder="Your Email Address..">
+
+                    <label for="company">Company (Optional)</label>
+                    <input type="text" id="comp" name="company" placeholder="Your Company..">
+
+                    <label for="textbox">Message</label>
+                    <textarea id="message" name="messa" placeholder="Your Message.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </main>
                     <!-- All footer stuff -->
