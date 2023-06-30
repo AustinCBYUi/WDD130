@@ -24,7 +24,6 @@ nav a {
     position: relative;
     top: -32px;
     left: 30%;
-    font: "Roboto Slab";
 }
 
 nav a:hover {
@@ -134,7 +133,6 @@ html {
     display: inline-block;
     margin-left: 400px;
     font-size: 32px;
-    font: Montserrat;
 }
 
 .grid-item p {
@@ -144,7 +142,6 @@ html {
     margin-left: 80px;
     margin-top: -400px;
     max-width: 80%;
-    font: "Open Sans";
     letter-spacing: 1px;
     padding: 25px;
 }
