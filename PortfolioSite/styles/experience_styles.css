@@ -31,12 +31,13 @@ nav a:hover {
 }
 /* End of Navigation */
 
+
 /* Title of page named "Languages"*/
 h1 {
     color: white;
     text-align: center;
     font-size: 24px;
-    margin-top: 30px;
+    margin-top: 40px;
     letter-spacing: 10px;
 }
 
@@ -47,6 +48,7 @@ h1 {
 
 
 /* Body and Content of webpage */
+/* First grid for Languages */
 #home-grid {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
@@ -54,35 +56,106 @@ h1 {
     justify-content: center;
 }
 
+/* Secondary grid because I wanted it spaced from the
+original. 
+This grid is for Tools
+*/
 #secondary-grid {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 250px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
-/* Python 3*/
+/* Experience Grid items */
 .grid-item {
     color: white;
     font-size: 14px;
     text-align: center;
     border: 5px solid rgb(29, 29, 29);
     background-color: rgb(29, 29, 29);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
     margin: 5px 5px;
+    perspective: 1000px;
 }
 
+/* Pseudo for card flip */
+#home-grid .grid-item:hover {
+    transform: rotateY(180deg);
+}
+
+/* Pseudo for card flip on secondary grid */
+#secondary-grid .secondary-grid-item:hover,
+#secondary-grid .secondary-grid-item-ble:hover {
+    transform: rotateY(180deg);
+}
+
+/* Hide content on cards */
+.card-front, .card-back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/* Back of card rotation */
+.card-back {
+    transform: rotateY(180deg);
+}
+
+/* Paragraph styling on back of cards */
+.card-back p {
+    position: absolute;
+    bottom: 90px;
+    font-size: 15px;
+}
+
+/* Title styling */
 .grid-item h1 {
     margin-top: 10px;
 }
 
-/* Won't be transparent for some reason.*/
+/* Image movement to fit them appropriately */
 .grid-item img {
     width: 150px;
     margin-top: -10px;
-    background: transparent;
 }
 
-/* HTML and CSS */
+/* Tools Grid Below */
+.secondary-grid-item, .secondary-grid-item-ble {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border: 5px solid rgb(29, 29, 29);
+    background-color: rgb(29, 29, 29);
+    margin: 5px 5px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+/* Titles */
+.secondary-grid-item h1,
+.secondary-grid-item-ble h1 {
+    font-size: 18px;
+    margin-top: 1px;
+}
+
+/* Images for secondary grid */
+.secondary-grid-item img {
+    width: 150px;
+    margin-top: 5px;
+}
+
+/* This section is for blender only because
+the logo is strange */
+.secondary-grid-item-ble img {
+    width: 150px;
+    margin-top: 15px;
+}
+
+
+/* Main body stuff below */
 
 body {
     background-color: rgb(33, 40, 40);
