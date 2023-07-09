@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience</title>
-    <link rel="stylesheet" href="styles/experience_styles.css" />
+    <link rel="stylesheet" href="styles/experience_styles.css">
 </head>
 <body>
     <div id="content">
+        <!-- Navigation -->
         <header>
             <nav>
                 <img src="images/logotest.png" alt="logo">
@@ -19,41 +20,166 @@
             </nav>
         </header>
 
+        <!-- Credit to W3Schools for the flip cards, felt the page was too
+        basic for what it was, maybe I'll change the paragraphs later. -->
+
+        <!-- Languages section -->
         <h1>Languages</h1>
-        <main id="home-grid">
-            <div class="grid-item">
-                <h1>Python 3</h1>
-                <img src="images/python_again.svg" alt="Python logo">
+        <!-- Main grid for Languages-->
+        <main id="home-grid"> <!-- This would be flipbox-->
+            <!-- All of these grid items are the same thankfully. -->
+            <!-- Python 3 Language (My all time best)-->
+            <div class="grid-item"> <!-- This would be card-inner -->
+                <!-- Front of Card-->
+                <div class="card-front">
+                    <h1>Python 3</h1>
+                    <img src="images/python_again.svg" alt="Python logo">
+                </div>
+                <!-- Back of Card -->
+                <div class="card-back">
+                    <p>Primary focus in back-end work, applications, and logic.</p>
+                </div>
             </div>
+            <!-- HTML Language -->
             <div class="grid-item">
-                <h1>HTML</h1>
-                <img src="images/newhtml.png" alt="HTML logo">
+                <!-- Front of Card -->
+                <div class="card-front">
+                    <h1>HTML</h1>
+                    <img src="images/newhtml.png" alt="HTML logo">
+                </div>
+                <!-- Back of Card -->
+                <div class="card-back">
+                    <p>Development of websites and web-based applications.</p>
+                </div>
             </div>
+            <!-- CSS 'Language' -->
             <div class="grid-item">
-                <h1>CSS3</h1>
-                <img src="images/newcss.png" alt="CSS Logo">
+                <!-- Front of Card -->
+                <div class="card-front">
+                    <h1>CSS3</h1>
+                    <img src="images/newcss.png" alt="CSS Logo">
+                </div>
+                <!-- Back of Card -->
+                <div class="card-back">
+                    <p>Design and styling of websites and web-based applications.</p>
+                </div>
             </div>
+            <!-- C++ Language -->
             <div class="grid-item">
-                <h1>C++</h1>
-                <img src="images/c++.png" alt="C++ Logo">
+                <!-- Front of Card-->
+                <div class="card-front">
+                    <h1>C++</h1>
+                    <img src="images/c++.png" alt="C++ Logo">
+                </div>
+                <!-- Back of Card -->
+                <div class="card-back">
+                    <p>Moderate console-based application development and
+                        game-related exposure (Enfusion / Unreal Engines).
+                    </p>
+                </div>
             </div>
+            <!-- C# Language -->
             <div class="grid-item">
-                <h1>C#</h1>
-                <img src="images/csharp.png" alt="C# Logo">
+                <!-- Front of Card -->
+                <div class="card-front">
+                    <h1>C#</h1>
+                    <img src="images/csharp.png" alt="C# Logo">
+                </div>
+                <!-- Back of Card -->
+                <div class="card-back">
+                    <p>Primarily exposed to C# in game development with Unity Engine.</p>
+                </div>
             </div>
+            <!-- Java Language -->
             <div class="grid-item">
-                <h1>Java</h1>
-                <img src="images/java.png" alt="Java logo">
+                <!-- Card front -->
+                <div class="card-front">
+                    <h1>Java</h1>
+                    <img src="images/java.png" alt="Java logo">
+                </div>
+                <!-- Back of Card -->
+                <div class="card-back">
+                    <p>Experience working with games and some tools that utilize Java.</p>
+                </div>
             </div>
+            <!-- Kotlin Language -->
             <div class="grid-item">
-                <h1>Kotlin</h1>
-                <img src="images/kotlin.png" alt="Kotlin Logo">
+                <!-- Front of Card -->
+                <div class="card-front">
+                    <h1>Kotlin</h1>
+                    <img src="images/kotlin.png" alt="Kotlin Logo">
+                </div>
+                <!-- Back of Card -->
+                <div class="card-back">
+                    <p>Pelethora of experience working with an open-source project that is written
+                        in Kotlin.
+                    </p>
+                </div>
             </div>
-            <!-- Tools like photoshop A.I. here..-->
+        <!--End of Main 1?-->
         </main>
+
+        <!-- Tools section (aka applications I'm good at?)-->
+        <!-- Title of Tools -->
         <h1>Tools</h1>
-        <main id="secondary-grid">
-        </main>
+        <!-- Primary grid container -->
+        <div id="secondary-grid">
+            <!-- Container for all grid items except blender -->
+            <div class="secondary-grid-item">
+                <!-- Front section of grid cards -->
+                <div class="card-front">
+                    <h1>Visual Studio Code</h1>
+                    <img src="images/tools-images/vsc-icon-opt.png" alt="Visual Studio Icon">
+                </div>
+                <!-- Back section of grid card during CSS flip -->
+                <div class="card-back">
+                    <p>Experience with Github integration, debugging, and project development.
+                    </p>
+                </div>
+            </div>
+            <!-- Blender logo is odd so this is an individual class name -->
+            <!-- Blender 3D Studio logo and desc -->
+            <div class="secondary-grid-item-ble">
+                <!-- Front Section of card -->
+                <div class="card-front">
+                    <h1>Blender 3D Studio</h1>
+                    <img src="images/tools-images/blender-icon-opt.png" alt="Blender Icon">
+                </div>
+                <!-- Back of card for flip.-->
+                <div class="card-back">
+                    <p>Experience with 3D Modeling, animations, rigging, and LODs specifically
+                        for video games.
+                    </p>
+                </div>
+            </div>
+            <!-- Adobe Photoshop logo and description -->
+            <div class="secondary-grid-item">
+                <!-- Front of photoshop card -->
+                <div class="card-front">
+                    <h1>Adobe Photoshop</h1>
+                    <img src="images/tools-images/ps-icon-opt.png" alt="Photoshop Icon">
+                </div>
+                <!-- Back of photoshop card -->
+                <div class="card-back">
+                    <p>General usage, 3D art textures, photo editing, optimizing photos etc..
+                    </p>
+                </div>
+            </div>
+            <!-- Adobe Illustrator logo and desc -->
+            <div class="secondary-grid-item">
+                <!-- Front of illustrator card -->
+                <div class="card-front">
+                    <h1>Adobe Illustrator</h1>
+                    <img src="images/tools-images/ai-icon-opt.png" alt="Illustrator Icon">
+                </div>
+                <!-- Back of illustrator card -->
+                <div class="card-back">
+                    <p>Experience in graphic design, logos, icons, emblems, textures etc..</p>
+                </div>
+            </div>
+        <!-- End of main div -->
+        </div>
+
 
         <!-- All footer stuff -->
         <footer>
