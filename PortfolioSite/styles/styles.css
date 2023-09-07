@@ -258,16 +258,16 @@ footer {
 }
 
 
-/* @Media - Don't think this will be a 
-possibility with this webpage.
+
 @media screen and (max-width: 900px) {
     .home-grid {
         display: block;
         height: auto;
+        width: auto;
     }
     nav, footer {
         flex-direction: column;
+        display: flex;
     }
 }
 
-*/
